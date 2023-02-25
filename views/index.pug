@@ -9,7 +9,7 @@ block content
 
       //- Add a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
       p.lead.text-light
-        | Hi there! My name is Mia (mee-yuh) and I'm an embedded software engineer aspiring to be a full stack web developer. This page is dedicated to showcase the projects I have done in the past. In case my skills fit what you're looking for, or you'd like to chat further, you can contact me through these links
+        | Hi there! My name is Mia (mee-yuh) and I'm an embedded software engineer aspiring to be a full stack web developer. This page is dedicated to showcase the projects I have done in the past. In case my skills fit what you're looking for, or you'd like to chat further, you can contact me through these links   
         span.socials
           a(href=details.linkedin, target='_blank')
             i.fa-brands.fa-linkedin
@@ -26,7 +26,7 @@ block content
       //- Here's what the Pug for each project example should look like. 
       each project in projects
         .cell
-          a(href=project.url)
+          a(href='/project/' + project.id)
             img.thumbnail(src=project.thumbnail)
-            h5 #{project.title}
+            h5 #{project.project_name}
       

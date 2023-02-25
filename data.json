@@ -1,29 +1,80 @@
 {
   "projects" : [
     {
-      "id": 1,
+      "id": 0,
       "project_name" : "WanderfulWorld",
-      "description": "some description",
-      "technologies": ["Vanilla Javascript", "HTML", "CSS"],
-      "url": "/project/wanderfulworld",
-      "image_urls": ["/static/images/1.jpg"]
+      "description": "WanderfulWorld is a travel inspiration site that aims to give its users an idea of where to travel next. “Wanderful World” is a word play of the word “Wander” or in other term – “to travel”. This is a requirement for one of my courses from Douglas College. I used Vanilla Javascript with CSS3 and HTML5",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "image_urls": [
+        "/static/images/wanderfulworld/1.png",
+        "/static/images/wanderfulworld/2.png",
+        "/static/images/wanderfulworld/3.png",
+        "/static/images/wanderfulworld/4.png"
+      ],
+      "thumbnail": "/static/images/wanderfulworld/0.png",
+      "live": "https://atibayan.github.io/",
+      "github": "https://github.com/atibayan/atibayan.github.io"
     },
     {
-      "title" : "WanderfulWorld",
-      "description": "some description",
-      "url": "/project/wanderfulworld",
-      "thumbnail": "/static/images/1.jpg"
+      "id": 1,
+      "project_name" : "OmniFood",
+      "description": "OmniFood is a static website that was created from one of the crash courses I took from Udemy. This allowed me to re-learn HTML and CSS.",
+      "technologies": ["HTML", "CSS"],
+      "image_urls": [
+        "/static/images/omnifood/1.png",
+        "/static/images/omnifood/2.png",
+        "/static/images/omnifood/3.png",
+        "/static/images/omnifood/4.png",
+        "/static/images/omnifood/5.png"
+      ],
+      "thumbnail": "/static/images/omnifood/0.png",
+      "live": "https://atibayan.github.io/omnifood/",
+      "github": "https://github.com/atibayan/omnifood"
     },
     {
-      "title" : "WanderfulWorld",
-      "description": "some description",
-      "url": "/project/wanderfulworld",
-      "thumbnail": "/static/images/1.jpg"
+      "id": 2,
+      "project_name" : "Pagination",
+      "description": "This exercise is one of the requirements for CSIS3380 (Full Stack and Advanced Javascript course). This serves as a JS refresher before diving into the more complicated topics.",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "image_urls": [
+        "/static/images/pagination/0.png",
+        "/static/images/pagination/1.png"
+      ],
+      "thumbnail": "/static/images/pagination/0.png",
+      "live": "https://atibayan.github.io/csis3380/exer2/index.html",
+      "github": "https://github.com/atibayan/csis3380/tree/main/exer2"
+    },
+    {
+      "id": 3,
+      "project_name" : "Planets",
+      "description": "This exercise is one of the requirements for CSIS3380 (Full Stack and Advanced Javascript course). This project aims to apply the basic React concepts - React Class Components, stateful components",
+      "technologies": ["React", "HTML", "CSS"],
+      "image_urls": [
+        "/static/images/planets/1.png",
+        "/static/images/planets/2.png"
+      ],
+      "thumbnail": "/static/images/planets/0.png",
+      "live": "https://atibayan.github.io/csis3380/planets/index.html",
+      "github": "https://github.com/atibayan/csis3380/tree/main/planets"
+    },
+    {
+      "id": 4,
+      "project_name" : "Portfolio",
+      "description": "This exercise is one of the requirements for CSIS3380 (Full Stack and Advanced Javascript course). This project allowed me to learn templating through Pug, NodeJS, Express, Bootstrap and HTML/CSS",
+      "technologies": ["NodeJS", "Express", "Pug", "Templating", "Bootstrap", "HTML", "CSS"],
+      "image_urls": [
+        "/static/images/portfolio/1.png",
+        "/static/images/portfolio/2.png",
+        "/static/images/portfolio/3.png"
+      ],
+      "thumbnail": "/static/images/portfolio/0.png",
+      "live": "https://atibayan.github.io/csis3380/planets/index.html",
+      "github": "https://github.com/atibayan/csis3380/tree/main/planets"
     }
   ],
   "details": {
     "name": "MIA TIBAYAN",
-    "picture": "/static/images/1.jpg",
+    "picture": "/static/images/tibayan.png",
     "title": "Full Stack Javascript Developer",
     "description": "A Software Engineer with experience in embedded software development. Currently taking Post-degree Diploma in Information and Communications Technology at Douglas College, British Columbia",
     "bio": "A Software Engineer with experience in embedded software development. Currently taking Post-degree Diploma in Information and Communications Technology at Douglas College, British Columbia",
@@ -31,6 +82,8 @@
     "email": "aemilia.tibayan@gmail.com",
     "linkedin": "https://www.linkedin.com/in/aemiliatibayan",
     "github": "https://github.com/atibayan",
+    "instagram": "https://www.instagram.com/miaaemilia/",
+    "location": "Surrey, British Columbia, CA",
     "skills": [
       {
         "name": "React",

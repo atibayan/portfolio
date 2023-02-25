@@ -5,7 +5,7 @@ block content
     a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
-      .cell.small-6.medium-9.large-9
+      .cell.medium-6.large-6
 
         //- Add your name.
         h1 #{details.name}
@@ -18,7 +18,32 @@ block content
         .portfolio-bio
           p
             | #{details.bio}
-      .cell.portfolio-meta.small-6.medium-2.large-3
+        
+        h6 Contact Info
+
+        //- Add your own contact info
+        //- ul
+        div.contact
+          i.fa-solid.fa-phone
+          |   #{details.phone}
+        div.contact
+          i.fa-solid.fa-envelope
+          |   #{details.email}
+        div.contact
+          i.fa-solid.fa-location-dot
+          |   #{details.email}
+        
+        //- Add URLs to the hrefs below to link to your social media accounts.
+        span.socials
+          a(href=details.linkedin, target='_blank')
+              i.fa-brands.fa-linkedin
+          a(href=details.github, target='_blank')
+              i.fa-brands.fa-github
+          a(href=details.instagram, target='_blank')
+              i.fa-brands.fa-instagram
+
+      .cell.medium-1.large-1
+      .cell.portfolio-meta.medium-5.large-5
         h6 Skills
 
         //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
@@ -30,17 +55,7 @@ block content
         ul
         each skill in details.skills
           li.skillnames #{skill.name}
-        h6 Contact Info
-
-        //- Add your own contact info
-        ul
-          li #{details.phone}
-          li #{details.email}
-
-        //- Add URLs to the hrefs below to link to your social media accounts.
-        a.button.expanded(href='') LinkedIn
-        a.button.expanded(href='') GitHub
-        a.button.expanded(href='') Twitter
+        
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
   

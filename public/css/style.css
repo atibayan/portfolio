@@ -128,10 +128,6 @@ a:hover{
       letter-spacing: 1px;
     }
 
-.portfolio-meta{
-  padding-left: 20px;
-}
-
   .portfolio-meta .button{
     margin-bottom: 5px;
   }
@@ -149,16 +145,16 @@ a:hover{
     line-height: 25px;
 }
 
-.socials > *{
+.socials > *, .ext_link > *{
   background-color: #c0c0c0;
-  padding: 0px 5px;
+  padding: 3px 5px;
   border-radius: 5px;
-  margin-left: 5px;
+  margin-right: 5px;
   font-size: x-large;
   color: black;
 }
 
-.socials > *:hover{
+.socials > *:hover, .ext_link > *:hover{
   background-color: rgb(17, 34, 34);
   color: #c0c0c0;
 }
@@ -166,7 +162,6 @@ a:hover{
 .logo{
   list-style-type: none;
   display: inline-flex;
-
   background-color: #c0c0c0;
   padding: 0px 5px;
   border-radius: 5px;
@@ -180,5 +175,11 @@ a:hover{
 
 .skillnames:not(:last-of-type)::after {
   padding: 0px 5px;
-  content: " | "
+  content: " ● ";
+  font-weight: bold;
+}
+
+
+.grid-x > .cell:nth-child(1){
+  margin-bottom: 20px;
 }
