@@ -179,7 +179,35 @@ a:hover{
   font-weight: bold;
 }
 
-
 .grid-x > .cell:nth-child(1){
   margin-bottom: 20px;
 }
+
+#intro{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin: 0 auto;
+  background-color: #1e1e1e;
+}
+
+#intro>*:last-child {
+  border-right: .15em solid #d4d4d4;
+  animation:
+    text-cursor .8s infinite;
+}
+
+@keyframes text-cursor {
+  from { border-color: transparent }
+  to { border-color: #d4d4d4; }
+}
+
+.white{
+  color: #d4d4d4;
+}
+.paren{
+  color: #159fff;
+}
+.string{
+  color: #ce9278;
+}
+

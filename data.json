@@ -68,12 +68,12 @@
         "/static/images/portfolio/3.png"
       ],
       "thumbnail": "/static/images/portfolio/0.png",
-      "live": "https://atibayan.github.io/csis3380/planets/index.html",
-      "github": "https://github.com/atibayan/csis3380/tree/main/planets"
+      "live": "https://portfolio-m4nr.onrender.com",
+      "github": "https://github.com/atibayan/portfolio"
     }
   ],
   "details": {
-    "name": "MIA TIBAYAN",
+    "name": "Mia Tibayan",
     "picture": "/static/images/tibayan.png",
     "title": "Full Stack Javascript Developer",
     "description": "A Software Engineer with experience in embedded software development. Currently taking Post-degree Diploma in Information and Communications Technology at Douglas College, British Columbia",
