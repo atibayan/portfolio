@@ -65,7 +65,8 @@
       "image_urls": [
         "/static/images/portfolio/1.png",
         "/static/images/portfolio/2.png",
-        "/static/images/portfolio/3.png"
+        "/static/images/portfolio/3.png",
+        "/static/images/portfolio/4.png"
       ],
       "thumbnail": "/static/images/portfolio/0.png",
       "live": "https://portfolio-m4nr.onrender.com",

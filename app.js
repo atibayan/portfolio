@@ -21,10 +21,20 @@ app.get('/about', (req, res) => {
 })
 
 app.get('/project/:id', (req, res) => {
+  if (isNaN(req.params.id) || req.params.id >= data.projects.length)
+    throw new Error() // in case a project with incorrect project id is accessed
   const project = data.projects[req.params.id]
   const details = data.details  
   res.render('project', {project, details})
 })
+
+app.get('*', (req, res) => {
+  throw new Error();
+})
+
+app.use((err, req, res, next) => {
+  res.status(404).render('oops');
+}); 
 
 app.listen(PORT, (err) => {
   if(err) console.log(err)

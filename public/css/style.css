@@ -145,20 +145,23 @@ a:hover{
     line-height: 25px;
 }
 
-.socials > *, .ext_link > *{
+/* GITHUB/LINKEIN/IG ICON LINKS */
+span.socials > *,
+.ext_link > *{
   background-color: #c0c0c0;
   padding: 3px 5px;
   border-radius: 5px;
   margin-right: 5px;
-  font-size: x-large;
   color: black;
+  font-size: calc(12px + 1rem);
 }
 
-.socials > *:hover, .ext_link > *:hover{
-  background-color: rgb(17, 34, 34);
+span.socials > *:hover, .ext_link > *:hover{
+  background-color: #121213;
   color: #c0c0c0;
 }
 
+/* TECHNOLOGIES/SKILLS LOGO */
 .logo{
   list-style-type: none;
   display: inline-flex;
@@ -183,6 +186,7 @@ a:hover{
   margin-bottom: 20px;
 }
 
+/* INTRO @ index */
 #intro{
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
@@ -190,6 +194,7 @@ a:hover{
   background-color: #1e1e1e;
 }
 
+/* INTRO SIMULATE A TEXT CURSOR */
 #intro>*:last-child {
   border-right: .15em solid #d4d4d4;
   animation:
@@ -201,6 +206,7 @@ a:hover{
   to { border-color: #d4d4d4; }
 }
 
+/* INTRO SYNTAX HIGHLIGHTING */
 .white{
   color: #d4d4d4;
 }
@@ -210,4 +216,3 @@ a:hover{
 .string{
   color: #ce9278;
 }
-

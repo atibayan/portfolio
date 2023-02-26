@@ -1,0 +1,27 @@
+body{
+  background-color: rgb(250, 250, 250);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#content > * {
+  align-self: center;
+}
+
+.code {
+  font-size: calc(12px + 20vw);
+  background-clip: text;
+  background-size: 100% 100%;
+  color: #130170;
+  margin-bottom: 3vh;
+  text-shadow: 10px 10px #F51720,
+                20px 20px #F8D210,
+                -10px -10px #FA26A0;
+}
+
+#back{
+  font-size: calc(12px + 5vw);
+}

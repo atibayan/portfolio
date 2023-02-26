@@ -1,3 +1,6 @@
+// This JS file is for the intro on landing page
+// This is to mimic typing/coding on vs code. :)
+
 window.addEventListener('DOMContentLoaded', ()=> {
 
   const target = document.getElementById("intro")
@@ -13,6 +16,8 @@ window.addEventListener('DOMContentLoaded', ()=> {
 
   for (let i = 0; i < children.length - 1; i++){
     console.log(delay)
+    //for each child of the intro (multiple spans due to syntax highliting)
+    //delay calculated so each span only starts after the previous
     setTimeout(() => {typewriter(children[i], text[i])}, delay)
     delay += text[i].length * speed + speed;
   }

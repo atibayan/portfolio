@@ -5,24 +5,15 @@ block content
     a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
-      .cell.medium-6.large-6
-
-        //- Add your name.
+      //- medium 11 cols, large 12 cols
+      .cell.medium-6.large-6 
         h1 #{details.name}
-
-        //- Feel free personalize the title below
         p.lead.text-light
           | #{details.title}
-
-        //- Replace the boilerplate below with your Elevator pitch below.
         .portfolio-bio
           p
-            | #{details.bio}
-        
+            | #{details.pitch}  
         h6 Contact Info
-
-        //- Add your own contact info
-        //- ul
         div.contact
           i.fa-solid.fa-phone
           |   #{details.phone}
@@ -31,9 +22,8 @@ block content
           |   #{details.email}
         div.contact
           i.fa-solid.fa-location-dot
-          |   #{details.email}
+          |   #{details.location}
         
-        //- Add URLs to the hrefs below to link to your social media accounts.
         span.socials
           a(href=details.linkedin, target='_blank')
               i.fa-brands.fa-linkedin
@@ -45,8 +35,6 @@ block content
       .cell.medium-1.large-1
       .cell.portfolio-meta.medium-5.large-5
         h6 Skills
-
-        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
         ul
         each skill in details.skills
           li.logo

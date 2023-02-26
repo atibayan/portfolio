@@ -1,0 +1,21 @@
+//- This is the generic page for incorrect/unimplemented endpoint
+<!DOCTYPE html>
+html(class="no-js" lang="en" dir="ltr")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Page Not Found
+    link(rel='stylesheet', href='/static/css/notfound.css')
+    script(src='https://kit.fontawesome.com/84ccaf09ac.js', crossorigin='anonymous')
+
+  body
+    div#content
+      div
+        h1.code 404
+      div
+        h2 PAGE NOT FOUND!
+        h3 The page you are looking for was either moved, removed, replaced, renamed or did not exist.
+        a(href="/")
+          i.fa-solid.fa-arrow-left#back
+
